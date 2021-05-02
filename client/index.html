@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT and Refresh Token</title>
+</head>
+<body>
+    <h1>JWT in localstorage</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" required><br>
+        <label for="password">Password</label>
+        <input type="text" name="password" required><br>
+        <button id="submit">Send</button>
+    </form>
+    <p id="output"></p>
+    <button id="secret-path">Get Secret</button>
+    <p id="secret"></p>
+    <button id="logout">Logout</button>
+
+    <script src="functions.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
